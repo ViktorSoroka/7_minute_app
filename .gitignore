@@ -1,0 +1,4 @@
+codebase/
+.idea/
+bower_components/
+node_modules
