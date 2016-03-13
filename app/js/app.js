@@ -5,7 +5,8 @@ angular
         'ngRoute',
         'ngSanitize',
         '7minWorkout',
-        'mediaPlayer'
+        'mediaPlayer',
+        'ui.bootstrap'
     ])
     .config(function ($routeProvider, $locationProvider, $sceDelegateProvider) {
         $routeProvider.when('/start', {templateUrl: 'partials/start.html'});
